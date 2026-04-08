@@ -15,32 +15,32 @@ export function WorkSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Проекты
+            Случаи
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Избранные работы</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Реальные отзывы клиентов</p>
         </div>
 
         <div className="space-y-6 md:space-y-8">
           {[
             {
               number: "01",
-              title: "ТехноСтарт",
-              category: "Корпоративный портал",
+              title: "«Я уже собиралась увольняться, потому что не видела выхода. После консультации появился конкретный план разговора с руководителем, и ситуацию удалось решить без ухода.»",
+              category: "Сотрудник · Конфликт с руководителем",
               year: "2024",
               direction: "left",
             },
             {
               number: "02",
-              title: "АльфаТрейд",
-              category: "Финтех платформа",
+              title: "«В команде долго копилось напряжение. После HR-медиации мы впервые спокойно обсудили проблему и договорились о правилах работы.»",
+              category: "Руководитель · Напряжение в команде",
               year: "2024",
               direction: "right",
             },
             {
               number: "03",
-              title: "МедиаПульс",
-              category: "Медиа сервис",
-              year: "2023",
+              title: "«Сильная сторона сервиса — конкретика. Не общие слова, а понятные шаги, что делать прямо сейчас.»",
+              category: "HR-директор · Диагностика атмосферы",
+              year: "2024",
               direction: "left",
             },
           ].map((project, i) => (

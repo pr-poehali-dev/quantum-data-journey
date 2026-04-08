@@ -17,29 +17,29 @@ export function ServicesSection() {
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
             Услуги
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Форматы работы</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Индивидуальная HR-консультация",
+              description: "Разбор сложной рабочей ситуации за 60 минут. Человек получает ясность, позицию и пошаговый сценарий разговора.",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "HR-медиация",
+              description: "Встреча сотрудника и руководителя. Убираем эмоции, выявляем причину конфликта, переводим в переговоры с конкретными договорённостями.",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Поддержка адаптации",
+              description: "Сопровождение нового сотрудника в первые 14 дней. Снижаем тревожность и риск раннего увольнения.",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Диагностика атмосферы в команде",
+              description: "Экспресс-разбор причин напряжения и скрытых конфликтов. Карта проблемных зон и конкретные рекомендации.",
               direction: "bottom",
             },
           ].map((service, i) => (
